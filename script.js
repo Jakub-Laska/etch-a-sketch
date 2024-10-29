@@ -1,1 +1,2 @@
-console.log('hi');
+const container = document.querySelector('#container');
+
