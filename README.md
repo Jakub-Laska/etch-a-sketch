@@ -7,4 +7,5 @@ todo:
 - left knob will be menu and right will be clear screen
 - menu with grid selection (16,32,64,128) and color selection (standard      black or random rainbow)
 - add some texture to the border
-- every next hover darkens the tile by 10% 
+- every next hover darkens the tile by 10%
+- try to make it work on mobile 
