@@ -1,5 +1,5 @@
 const game = document.querySelector('#game');
-let gridNum = 16;
+let gridNum = 64;
 
 function createGrid() {
     for (let i = 0; i < gridNum; i++) {

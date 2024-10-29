@@ -58,12 +58,15 @@ span {
     border-radius: 2rem;
     overflow: hidden;
 }
+#game:hover {
+    cursor: crosshair;
+}
 .row {
     flex: 1;
     display: flex;
 }
 .cell {
-    border: 1px solid #ff00001a;
+    border: 1px solid #0000000c;
     flex: 1;
 }
 .cell:hover {
