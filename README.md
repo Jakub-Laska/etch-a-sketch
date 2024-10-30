@@ -8,4 +8,5 @@ todo:
 - menu with grid selection (16,32,64,128) and color selection (standard      black or random rainbow)
 - add some texture to the border
 - every next hover darkens the tile by 10%
-- try to make it work on mobile 
+- add media links
+- try to make it work on mobile
