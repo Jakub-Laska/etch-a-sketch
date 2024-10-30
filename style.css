@@ -77,6 +77,7 @@ span {
     flex-direction: column;
     border-radius: 2rem;
     overflow: hidden;
+    position: relative;
 }
 #game:hover {
     cursor: crosshair;
@@ -88,4 +89,30 @@ span {
 .cell {
     border: 1px solid #0000000c;
     flex: 1;
+}
+.menu {
+    background-color: #c20000;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    box-shadow: 0 0 20px #000000d8;
+    display: flex;
+    flex-direction: column;
+}
+.exitBtn {
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    margin: 20px;
+    border-radius: 50%;
+    border: none;
+}
+.exitBtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: .8;
 }
