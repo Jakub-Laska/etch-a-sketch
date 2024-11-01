@@ -231,6 +231,7 @@ span {
     }
     #leftKnob, #rightKnob {
         bottom: 5px;
+        margin-top: 10px;
     }
     .menu {
         width: 300px;
