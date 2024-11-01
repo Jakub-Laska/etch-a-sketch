@@ -235,4 +235,7 @@ span {
     .menu {
         width: 300px;
     }
+    #game {
+        margin-bottom: 10px;
+    }
 }
