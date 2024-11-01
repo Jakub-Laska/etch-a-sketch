@@ -70,6 +70,8 @@ function hideMenu() {
     selectedColor = colorPicker.value;
     container.style.opacity = "1";
     container.style.backgroundColor = selectedColor;
+    document.body.style.backgroundColor = selectedColor;
+    menu.style.backgroundColor = selectedColor;
 };
 menu.appendChild(exitBtn);
 

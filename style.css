@@ -9,7 +9,6 @@ body {
 #container {
     width: 100vw;
     height: 100vh;
-    /* border: #c20000 solid 8rem; */
     background-color: #c20000;
     display: flex;
     justify-content: center;
@@ -82,6 +81,8 @@ span {
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
+    border: 5px inset gold;
+
 }
 #game:hover {
     cursor: crosshair;
@@ -109,6 +110,7 @@ span {
     align-items: center;
     overflow: hidden;
     gap: .5rem;
+    border: 5px inset gold;
 }
 .exitBtn {
     width: 30px;
@@ -174,4 +176,63 @@ span {
 #signature {
     font-size: 1rem;
     color: #0000004d;
+}
+@media (max-width: 1200px) {
+    #title {
+        font-size: 1rem;
+        top: 30px;
+    }
+    span {
+        font-size: 1.5rem;
+    }
+    #leftKnob {
+        left: 10px;
+    }
+    #rightKnob {
+        right: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    #leftKnob {
+        left: 0;
+    }
+    #rightKnob {
+        right: 0;
+    }
+
+}
+@media (max-width: 800px) {
+    #leftKnob, #rightKnob {
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    #leftKnob {
+        left: 20px;
+    }
+    #rightKnob {
+        right: 20px;
+    }
+    span {
+        font-size: 1rem;
+        top: 10px;
+        margin: 0 .5rem;
+    }
+    #game {
+        height: 60%;
+    }
+}
+@media (max-width: 400px) {
+    .mediaIcon {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    #leftKnob, #rightKnob {
+        bottom: 10px;
+    }
+    .menu {
+        width: 300px;
+    }
 }
