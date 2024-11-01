@@ -26,6 +26,8 @@ function createGrid() {
     element.addEventListener("mouseenter", () => {
       element.style.backgroundColor = selectedColor;
     });
+  });
+    cells.forEach((element) => {
     element.addEventListener("click", () => {
       element.style.backgroundColor = selectedColor;
     });
