@@ -84,6 +84,7 @@ menu.appendChild(exitBtn);
 let colorPicker = document.createElement('input');
 colorPicker.classList.add('colorPicker');
 colorPicker.type = 'color';
+colorPicker.textContent = 'pick color';
 menu.appendChild(colorPicker);
 
 //menu select grid
