@@ -20,7 +20,7 @@ body {
     background-color: #dcdcdcd3;
     position: absolute;
     border-radius: 50%;
-    border: 2px dotted #0000008f;
+    border: 3px dotted #0000008f;
     display: flex;
     justify-content: center;
     align-items: center;
