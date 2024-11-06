@@ -20,7 +20,7 @@ body {
     background-color: #dcdcdcd3;
     position: absolute;
     border-radius: 50%;
-    border: 3px dotted #0000008f;
+    border: 2px dotted #0000008f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +231,7 @@ span {
     }
     #leftKnob, #rightKnob {
         bottom: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .menu {
         width: 300px;
